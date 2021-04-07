@@ -1,8 +1,16 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+}
 #header {
   margin-top: 10px;
   text-align: center;
   font-size: 60px;
   border-bottom: 2px solid black;
+  background-image: url("../images/background.jpg");
+  font-family: 'Architects Daughter', cursive;
 }
 
 #main-img {
@@ -30,4 +38,12 @@
 .container ol {
   margin-top: 20px;
   font-style: italic;
+}
+article {
+  background: #ffe4c4;
+  display: inline-block;
+  margin: 0px 70px;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.4;
 }
